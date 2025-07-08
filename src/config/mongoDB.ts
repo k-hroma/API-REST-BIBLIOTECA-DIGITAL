@@ -6,7 +6,7 @@ process.loadEnvFile()
 const MONGO_URIDB = process.env.MONGO_URIDB || ""
 let connectMDB: { isConnected: boolean } = {isConnected:false}
 
-//2. Defino función asyncrónica para establecer conexión
+//2. Defino función asincrónica para establecer conexión
 const mongoDBConnection = async (): Promise<ConnectResults> => { 
   // verifico que exista la URI
   if (!MONGO_URIDB) { 
