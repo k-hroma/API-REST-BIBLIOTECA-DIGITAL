@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Cien años de soledad",
+    "author": "Gabriel García Márquez",
+    "publishedYear": 1967,
+    "genre": "Realismo mágico",
+    "available": true
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "publishedYear": 1949,
+    "genre": "Distopía"
+  },
+  {
+    "title": "Ficciones",
+    "author": "Jorge Luis Borges",
+    "publishedYear": 1944,
+    "available": false
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Southern Gothic"
+  },
+  {
+    "title": "El túnel",
+    "author": "Ernesto Sabato"
+  }
+]
