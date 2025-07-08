@@ -1,4 +1,5 @@
 import { Router } from "express";
+import { getBooks, getBooksById, addBook, updateBook, deleteBook } from "../controllers/booksControllers";
 
 //creo un router en express
 const booksRouter = Router()
