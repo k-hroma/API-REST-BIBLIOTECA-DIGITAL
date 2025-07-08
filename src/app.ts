@@ -1,5 +1,6 @@
 import express from 'express'
 import cors from 'express'
+import { booksRouter } from './routes/booksRoutes'
 
 
 // creo una instancia de la aplicación express necesaria para configurar las rutas, los middlewares y escuchar las peticones HTTP
